@@ -1,0 +1,285 @@
+body{
+
+    background: url(/img/backgroundp3.jpg)
+   
+
+}
+
+
+.title-description{
+
+    justify-content: center;
+    align-items: center;
+    margin: 50px 165px;
+
+}
+
+.title-description h1{
+    
+    text-align: center;
+    font-weight: 600;
+   
+}
+
+.title-description p{
+
+    text-align: center;
+    font-size: 18px;
+
+}    
+
+.linha_conteudo{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+
+}
+
+.linha_conteudo>div{
+    width: 33%;
+    
+
+}
+
+.linha_conteudo>div>img{
+ width: 100%;
+
+}
+
+
+
+#container{
+
+   
+    margin: 50px 165px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+
+.item1{
+
+    display: flex;
+    /*width: 300px;
+    height: 300px;*/
+ 
+
+}
+
+.item2{
+
+    display: flex;
+    /*width: 300px;
+    height: 300px;*/
+
+
+}
+
+.item3{
+
+    display: flex;
+   /* width: 300px;
+    height: 300px;*/
+
+
+}
+
+#container2{
+
+
+    padding: 0 25px;
+    margin: 0px 165px;
+}
+
+#container2>div{
+    padding-top: 33%; 
+    position: relative; 
+}
+
+.linha_conteudo>div>p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+       
+     
+}
+
+.textcenter > div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text1{
+
+    display: flex;
+    background-color: #fff;
+   /* width: 300px;
+    height: 300px;
+    margin: 0px 25px 25px 0px;*/
+    font-size: 1.3vw;
+
+}
+
+.text2{
+
+    display: flex;
+    background-color: #fff;
+   /* width: 300px;
+    height: 300px;
+    margin: 0px 25px 25px 0px;*/
+    font-size: 1.3vw;
+
+}
+
+.text3{
+
+    display: flex;
+    background-color: #fff;
+    /*width: 300px;
+    height: 300px;
+    margin: 0px 0px 25px 0px;*/
+    font-size: 1.3vw;
+
+}
+
+#container3{
+
+    background-color: antiquewhite;
+    margin: 0px 165px 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.item4{
+
+    display: flex;
+   /* width: 300px;
+    height: 300px;
+    margin: 0px 25px 25px 0px;*/
+
+}
+
+.item5{
+
+    display: flex;
+   /* width: 300px;
+    height: 300px;
+    margin: 0px 25px 25px 0px;*/
+
+}
+
+.item6{
+
+    display: flex;
+   /* width: 300px;
+    height: 300px;
+    margin: 0px 0px 25px 0px;*/
+
+}
+.back{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+.back p{
+
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 50px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: antiquewhite;
+    transition: 500ms;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+ 
+    
+    
+
+}
+
+.back p:hover{
+
+    background-color: rgb(235, 197, 172);
+
+}
+
+.back a{
+    text-decoration: none;
+    min-width: 300px;
+    width: 30%;
+    display: block;
+}
+
+@media(max-width: 1080px){
+
+    #container{
+        margin: 50px 50px 0;
+    }
+    #container2{
+        margin: 0 50px;
+    }
+    #container3{
+        margin: 0 50px 50px;
+    }
+    .title-description{
+        margin: 50px 50px 0;
+    }
+}
+@media(max-width: 760px){
+    .linha_conteudo{
+        flex-direction: column;
+    }
+    .linha_conteudo>div{
+        width: 100%;
+    }
+
+    #container2>div{
+        padding-top: 100%;
+    }
+    .text1, .text2, .text3{
+        font-size: 20px;
+    }
+
+
+}
+
+@media(max-width: 430px){
+
+
+    #container{
+        margin: 50px 20px 0;
+    }
+    #container2{
+        margin: 0 20px;
+    }
+    #container3{
+        margin: 0 20px 50px;
+    }
+    .title-description{
+        margin: 50px 20px 0;
+    }
+    .text1, .text2, .text3{
+        font-size: 16px;
+    }
+
+}
